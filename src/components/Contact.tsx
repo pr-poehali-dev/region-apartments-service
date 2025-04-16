@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
   const phones = [
@@ -42,16 +42,6 @@ const Contact = () => {
                 <div>
                   <p className="font-medium">Адрес:</p>
                   <p>г. Губкин, Белгородская область</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <Mail className="mr-3 text-primary h-5 w-5 mt-1" />
-                <div>
-                  <p className="font-medium">Email:</p>
-                  <a href="mailto:info@region-kvartir.ru" className="text-primary hover:underline">
-                    info@region-kvartir.ru
-                  </a>
                 </div>
               </div>
             </div>
